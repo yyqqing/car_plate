@@ -34,7 +34,7 @@
  ![model](https://github.com/sunnythree/car_plate/blob/master/doc/crnn-ctc.png)
 ##### 训练
 ```
-    cd pytorch_model
+    cd pytorch_model_crnn_ctc
     python3 train.py 30 0.0001 10
 ```
 30是在训练集训练的次数，0.0001是学习速率,10是batch的大小
